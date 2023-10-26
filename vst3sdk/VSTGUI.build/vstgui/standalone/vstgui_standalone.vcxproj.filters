@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\application.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\genericalertbox.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\shareduiresources.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\uidescriptionwindowcontroller.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\window.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\helpers\value.cpp">
+      <Filter>source\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32application.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32async.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32commondirectories.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32menu.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32preference.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32window.cpp">
+      <Filter>source\platform\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\appinit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\doc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\fwd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ialertbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iappdelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iapplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iasync.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\icommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\icommondirectories.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\imenubuilder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\interface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ipreference.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ishareduiresources.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iuidescwindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ivalue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\ivaluelistener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindowcontroller.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\iwindowlistener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\appdelegate.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\async.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\menubuilder.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\preferences.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\value.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\valuelistener.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\windowcontroller.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\windowlistener.h">
+      <Filter>include\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\uidesc\modelbinding.h">
+      <Filter>include\helpers\uidesc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\include\helpers\uidesc\customization.h">
+      <Filter>include\helpers\uidesc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\application.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\genericalertbox.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\shareduiresources.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\window.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\iplatformwindow.h">
+      <Filter>source\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32async.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32commondirectories.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32menu.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32preference.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\source\platform\win32\win32window.h">
+      <Filter>source\platform\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\vstgui4\vstgui\standalone\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{A440A601-4F13-31F1-A2C0-B162314A11DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\helpers">
+      <UniqueIdentifier>{64286435-D0B5-32DD-B076-DD4EA8E45038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\helpers\uidesc">
+      <UniqueIdentifier>{438728BB-700A-3D37-8190-DBD51254F734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{11B0635C-EACA-3B53-A6A6-D7659FDCB88C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\helpers">
+      <UniqueIdentifier>{DE19ACF3-420E-3E91-AB02-789A530F2044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform">
+      <UniqueIdentifier>{88D07EA6-5C12-3D4D-A1E6-0EE89021270E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform\win32">
+      <UniqueIdentifier>{AD165BD6-5543-3848-BF9E-F5ECA1BBFD94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

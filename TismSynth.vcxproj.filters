@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\mypluginprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\myplugincontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\mypluginentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\myplugincids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\mypluginprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\source\myplugincontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\resource\myplugineditor.uidesc" />
+    <CustomBuild Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\resource\680BF5930B0D55C8A8DEDAEB9081E39D_snapshot.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\resource\680BF5930B0D55C8A8DEDAEB9081E39D_snapshot_2.0x.png">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{792558B2-326B-3532-8F41-CC8F23963F04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{475CDA1B-1B92-3367-BD40-99C925A96EC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43FB09C0-708F-312F-A494-F6766ED50C1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

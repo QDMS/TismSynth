@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23476A89-C02D-3025-9931-6935B728F2AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Desktop\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Desktop\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Desktop\VST_SDK\vst3sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Admin/Desktop/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth" "-BE:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth/build" --check-stamp-file "E:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Admin/Desktop/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth" "-BE:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth/build" --check-stamp-file "E:/My_Sites_Apps/TismStudio Plugins/Vst Instruments/TismSynth/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\Admin\Desktop\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\ZERO_CHECK.vcxproj">
+      <Project>{1CD699F4-AC1F-303B-AD44-8D281DD6D7D7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst-hosting\inspectorapp\VST3Inspector.vcxproj">
+      <Project>{655798BD-7265-3AEC-AE79-82F04BE237D6}</Project>
+      <Name>VST3Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\adelay\adelay.vcxproj">
+      <Project>{8FEFBC49-D0E8-37E0-A75D-DE32008C5E30}</Project>
+      <Name>adelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\again\again.vcxproj">
+      <Project>{D6BFEE9C-F710-3A1D-B584-6D9267C3AFEB}</Project>
+      <Name>again</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\again_sampleaccurate\again-sampleaccurate.vcxproj">
+      <Project>{FA6A2B61-0A0B-35C4-A239-CD4DBEC8CF08}</Project>
+      <Name>again-sampleaccurate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\again\againsimple.vcxproj">
+      <Project>{27F3513E-727A-3EF6-B594-324F39E58D13}</Project>
+      <Name>againsimple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\base\base.vcxproj">
+      <Project>{E126AE82-6A99-3588-A635-A016C865D328}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\channelcontext\channelcontext.vcxproj">
+      <Project>{E8592899-ADA3-354A-B26C-DFBDABA97D96}</Project>
+      <Name>channelcontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\dataexchange\dataexchange.vcxproj">
+      <Project>{A0C70A99-8310-354C-8833-7C9CB065DB56}</Project>
+      <Name>dataexchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst-hosting\editorhost\editorhost.vcxproj">
+      <Project>{251C3B05-5A7B-3E0B-BC3B-15835286CE29}</Project>
+      <Name>editorhost</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\hostchecker\hostchecker.vcxproj">
+      <Project>{8FB5D592-CF12-37BB-9A62-BE3D62CE71FF}</Project>
+      <Name>hostchecker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\legacymidiccout\legacymidiccout.vcxproj">
+      <Project>{0EFE18C3-891A-34F6-B0AA-8DAC3AEBAC26}</Project>
+      <Name>legacymidiccout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\mda-vst3\mda-vst3.vcxproj">
+      <Project>{C28DA2FD-E1B8-3031-8899-573D367B12D3}</Project>
+      <Name>mda-vst3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.vcxproj">
+      <Project>{EDCF42D5-095D-3527-A4BC-C79B327986C1}</Project>
+      <Name>moduleinfotool</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\multiple_programchanges\multiple-program-changes.vcxproj">
+      <Project>{D3DA369F-A28F-35DB-B574-E9526CD950CB}</Project>
+      <Name>multiple-program-changes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\note_expression_synth\noteexpressionsynth.vcxproj">
+      <Project>{ADA13264-62A4-3B79-8CEF-B49965B6C2E8}</Project>
+      <Name>noteexpressionsynth</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\note_expression_text\noteexpressiontext.vcxproj">
+      <Project>{34750AB4-5A35-35FC-A913-730C0DEBA327}</Project>
+      <Name>noteexpressiontext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\panner\panner.vcxproj">
+      <Project>{C1A3FAEA-4883-3E4E-A9B2-EBE0CDD04837}</Project>
+      <Name>panner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\pitchnames\pitchnames.vcxproj">
+      <Project>{811C2696-0BA7-30E9-B60E-BA55A08C3769}</Project>
+      <Name>pitchnames</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\pluginterfaces\pluginterfaces.vcxproj">
+      <Project>{A3D9BA6A-8CFC-36B9-888F-004DE8868E75}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\prefetchablesupport\prefetchable.vcxproj">
+      <Project>{4A42CE4D-A9F6-3707-8BB8-5714F49196CA}</Project>
+      <Name>prefetchable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\programchange\programchange.vcxproj">
+      <Project>{67B0F7AD-AC49-3F4E-B317-A399E77B9DF2}</Project>
+      <Name>programchange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\sdk.vcxproj">
+      <Project>{8DE1C612-26CA-3DB0-BD85-B9D08518EDCB}</Project>
+      <Name>sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\sdk_common.vcxproj">
+      <Project>{1AFE722E-1498-3FAE-9EC8-3D35E7A09F0D}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\sdk_hosting.vcxproj">
+      <Project>{5CFABF29-6513-3A11-98F1-E3D19446E8B2}</Project>
+      <Name>sdk_hosting</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst\syncdelay\syncdelay.vcxproj">
+      <Project>{B1A39CE8-F0C2-3C7F-A2A9-7501C8DD2374}</Project>
+      <Name>syncdelay</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\public.sdk\samples\vst-hosting\validator\validator.vcxproj">
+      <Project>{7D6F08A3-10BE-3608-93BE-DB547044D1C0}</Project>
+      <Name>validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\VSTGUI.build\vstgui\lib\vstgui.vcxproj">
+      <Project>{2A5CDAA1-274D-360E-A65C-8C5B917D1C83}</Project>
+      <Name>vstgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\VSTGUI.build\vstgui\standalone\vstgui_standalone.vcxproj">
+      <Project>{6D70B017-CB50-3F0C-A9FA-7089FAEC9BB4}</Project>
+      <Name>vstgui_standalone</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\vstgui_support.vcxproj">
+      <Project>{D80134E3-C87B-392D-B742-08FDA9371CCA}</Project>
+      <Name>vstgui_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\My_Sites_Apps\TismStudio Plugins\Vst Instruments\TismSynth\build\vst3sdk\VSTGUI.build\vstgui\uidescription\vstgui_uidescription.vcxproj">
+      <Project>{8937A30E-D851-358E-9DCB-35449CA3368D}</Project>
+      <Name>vstgui_uidescription</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
